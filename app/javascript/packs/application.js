@@ -4,6 +4,7 @@
 // that code so it'll be compiled.
 
 import '../stylesheets/application'
+import './boostrap_custom.js'
 
 require("@rails/ujs").start()
 require("turbolinks").start()
