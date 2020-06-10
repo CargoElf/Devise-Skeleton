@@ -1,0 +1,10 @@
+<% app_name = Rails.application.class.module_parent.to_s.underscore.humanize.titleize %>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container">
+      <%= link_to app_name, root_path %>
+      <% if user_signed_in? %>
+        <%= button_to 'Logout', destroy_user_session_path, method: :delete %>
+      <% end %>
+  </div>
+</nav>
