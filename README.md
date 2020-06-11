@@ -12,7 +12,8 @@ gem install foreman
 Make sure you have installed and setup **PostgreSQL**.
 [Ubuntu](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-ubuntu-18-04)
 [Mac](https://www.digitalocean.com/community/tutorials/how-to-use-postgresql-with-your-ruby-on-rails-application-on-macos)
-###1. Clone repo
+
+### 1. Clone repo
 The below command will clone Devise Skeleton with a clean .git file.
 ```
 # /dir_for_projects/
