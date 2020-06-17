@@ -2,7 +2,9 @@
 This is a basic skeleton of a rails 6.0.3.1 app with Devise, Bootstrap, PosgreSQL, and Foreman. In this setup guide I assume familarity with Ruby on Rails as well as comfort with the terminal and git.
 
 ## Initial Setup
+
 ### 0. Foreman
+
 Make sure you have installed [**Foreman**](https://github.com/ddollar/foreman).
 **DO NOT** add to your Gemfile!
 
@@ -45,11 +47,12 @@ For Mac
 ```
 # /dir_for_projects/new_app_name/
 
-sed -i '' "/gem 'rename'/d" Gemfile
-bundle
+sed -i '' "/gem 'rename'/d" Gemfile && bundle
 ```
 Commit those changes if you haven't already.
-###3. Update remote URL to your repo
+
+### 3. Update remote URL to your repo
+
 Setup a new repo using your host of choice.
 
 Now point the URL at your new repo.
